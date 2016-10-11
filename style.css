@@ -1,0 +1,52 @@
+.constrain {
+    max-width: 1060px;
+    margin: 5px auto;
+    min-height: 100px;
+    background: white;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+body {
+
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    color: purple;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: purple;
+}
+
+h2 {
+    cursor: pointer;
+}
+
+p {
+    color: purple;
+}
+
+.material-icons {
+    font-weight: 700;
+    color: purple;
+    font-size: 1.5em;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+div.close {
+    display: none;
+}
+
+div.open {
+    display: block;
+    padding-left: 55px;
+}
